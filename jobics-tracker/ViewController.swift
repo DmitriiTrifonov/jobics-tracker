@@ -7,12 +7,27 @@
 //
 
 import UIKit
+import RealmSwift
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        let ts = TimeStamp()
+        ts.tag = "Sometag"
+        ts.job = "Somejob"
+        
+        let realm = try! Realm()
+        
+        try! realm.write {
+            realm.add(ts)
+        }
+        
+        print(realm.objects(TimeStamp.self))
+        
+        
+        
     }
 
 

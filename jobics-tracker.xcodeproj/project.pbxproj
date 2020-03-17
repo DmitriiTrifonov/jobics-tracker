@@ -13,7 +13,38 @@
 		F13BC38A2420021D00CAFD46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13BC3882420021D00CAFD46 /* Main.storyboard */; };
 		F13BC38C2420022100CAFD46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F13BC38B2420022100CAFD46 /* Assets.xcassets */; };
 		F13BC38F2420022100CAFD46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13BC38D2420022100CAFD46 /* LaunchScreen.storyboard */; };
+		F13BC39D2420076200CAFD46 /* jobics_trackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13BC39C2420076200CAFD46 /* jobics_trackerTests.swift */; };
+		F13BC3B0242009AD00CAFD46 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13BC3AB2420086600CAFD46 /* Realm.framework */; };
+		F13BC3B1242009AD00CAFD46 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F13BC3AB2420086600CAFD46 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F13BC3B3242009AF00CAFD46 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13BC3A92420085400CAFD46 /* RealmSwift.framework */; };
+		F13BC3B4242009AF00CAFD46 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F13BC3A92420085400CAFD46 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F13BC3BC242010CD00CAFD46 /* TimeStamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13BC3BB242010CD00CAFD46 /* TimeStamp.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F13BC39F2420076300CAFD46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F13BC3772420021D00CAFD46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F13BC37E2420021D00CAFD46;
+			remoteInfo = "jobics-tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F13BC3B2242009AD00CAFD46 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F13BC3B4242009AF00CAFD46 /* RealmSwift.framework in Embed Frameworks */,
+				F13BC3B1242009AD00CAFD46 /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		F13BC37F2420021D00CAFD46 /* jobics-tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "jobics-tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,10 +55,26 @@
 		F13BC38B2420022100CAFD46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F13BC38E2420022100CAFD46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F13BC3902420022100CAFD46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F13BC39A2420076200CAFD46 /* jobics-trackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "jobics-trackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13BC39C2420076200CAFD46 /* jobics_trackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jobics_trackerTests.swift; sourceTree = "<group>"; };
+		F13BC39E2420076300CAFD46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F13BC3A5242007DD00CAFD46 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = "../../Downloads/realm-swift-4.3-2.2/ios/swift-11.3/RealmSwift.framework"; sourceTree = "<group>"; };
+		F13BC3A92420085400CAFD46 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
+		F13BC3AB2420086600CAFD46 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		F13BC3BB242010CD00CAFD46 /* TimeStamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeStamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F13BC37C2420021D00CAFD46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13BC3B3242009AF00CAFD46 /* RealmSwift.framework in Frameworks */,
+				F13BC3B0242009AD00CAFD46 /* Realm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13BC3972420076200CAFD46 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,8 +87,12 @@
 		F13BC3762420021D00CAFD46 = {
 			isa = PBXGroup;
 			children = (
+				F13BC3AB2420086600CAFD46 /* Realm.framework */,
+				F13BC3A92420085400CAFD46 /* RealmSwift.framework */,
 				F13BC3812420021D00CAFD46 /* jobics-tracker */,
+				F13BC39B2420076200CAFD46 /* jobics-trackerTests */,
 				F13BC3802420021D00CAFD46 /* Products */,
+				F13BC3A4242007DD00CAFD46 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				F13BC37F2420021D00CAFD46 /* jobics-tracker.app */,
+				F13BC39A2420076200CAFD46 /* jobics-trackerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +108,57 @@
 		F13BC3812420021D00CAFD46 /* jobics-tracker */ = {
 			isa = PBXGroup;
 			children = (
+				F13BC3862420021D00CAFD46 /* ViewController.swift */,
+				F13BC3BA24200BF200CAFD46 /* View */,
+				F13BC3B924200BDD00CAFD46 /* Presenter */,
+				F13BC3B624200B7C00CAFD46 /* Model */,
 				F13BC3822420021D00CAFD46 /* AppDelegate.swift */,
 				F13BC3842420021D00CAFD46 /* SceneDelegate.swift */,
-				F13BC3862420021D00CAFD46 /* ViewController.swift */,
 				F13BC3882420021D00CAFD46 /* Main.storyboard */,
 				F13BC38B2420022100CAFD46 /* Assets.xcassets */,
 				F13BC38D2420022100CAFD46 /* LaunchScreen.storyboard */,
 				F13BC3902420022100CAFD46 /* Info.plist */,
 			);
 			path = "jobics-tracker";
+			sourceTree = "<group>";
+		};
+		F13BC39B2420076200CAFD46 /* jobics-trackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F13BC39C2420076200CAFD46 /* jobics_trackerTests.swift */,
+				F13BC39E2420076300CAFD46 /* Info.plist */,
+			);
+			path = "jobics-trackerTests";
+			sourceTree = "<group>";
+		};
+		F13BC3A4242007DD00CAFD46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F13BC3A5242007DD00CAFD46 /* RealmSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F13BC3B624200B7C00CAFD46 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F13BC3BB242010CD00CAFD46 /* TimeStamp.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F13BC3B924200BDD00CAFD46 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		F13BC3BA24200BF200CAFD46 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +171,8 @@
 				F13BC37B2420021D00CAFD46 /* Sources */,
 				F13BC37C2420021D00CAFD46 /* Frameworks */,
 				F13BC37D2420021D00CAFD46 /* Resources */,
+				F13BC3B2242009AD00CAFD46 /* Embed Frameworks */,
+				F13BC3B524200ADC00CAFD46 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -86,6 +182,24 @@
 			productName = "jobics-tracker";
 			productReference = F13BC37F2420021D00CAFD46 /* jobics-tracker.app */;
 			productType = "com.apple.product-type.application";
+		};
+		F13BC3992420076200CAFD46 /* jobics-trackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F13BC3A32420076300CAFD46 /* Build configuration list for PBXNativeTarget "jobics-trackerTests" */;
+			buildPhases = (
+				F13BC3962420076200CAFD46 /* Sources */,
+				F13BC3972420076200CAFD46 /* Frameworks */,
+				F13BC3982420076200CAFD46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F13BC3A02420076300CAFD46 /* PBXTargetDependency */,
+			);
+			name = "jobics-trackerTests";
+			productName = "jobics-trackerTests";
+			productReference = F13BC39A2420076200CAFD46 /* jobics-trackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -99,6 +213,10 @@
 				TargetAttributes = {
 					F13BC37E2420021D00CAFD46 = {
 						CreatedOnToolsVersion = 11.3.1;
+					};
+					F13BC3992420076200CAFD46 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = F13BC37E2420021D00CAFD46;
 					};
 				};
 			};
@@ -116,6 +234,7 @@
 			projectRoot = "";
 			targets = (
 				F13BC37E2420021D00CAFD46 /* jobics-tracker */,
+				F13BC3992420076200CAFD46 /* jobics-trackerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -131,7 +250,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F13BC3982420076200CAFD46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F13BC3B524200ADC00CAFD46 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework/strip-frameworks.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F13BC37B2420021D00CAFD46 /* Sources */ = {
@@ -140,11 +286,28 @@
 			files = (
 				F13BC3872420021D00CAFD46 /* ViewController.swift in Sources */,
 				F13BC3832420021D00CAFD46 /* AppDelegate.swift in Sources */,
+				F13BC3BC242010CD00CAFD46 /* TimeStamp.swift in Sources */,
 				F13BC3852420021D00CAFD46 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F13BC3962420076200CAFD46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13BC39D2420076200CAFD46 /* jobics_trackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F13BC3A02420076300CAFD46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F13BC37E2420021D00CAFD46 /* jobics-tracker */;
+			targetProxy = F13BC39F2420076300CAFD46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F13BC3882420021D00CAFD46 /* Main.storyboard */ = {
@@ -286,6 +449,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3N3SUWK76F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "jobics-tracker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -304,6 +471,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3N3SUWK76F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "jobics-tracker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -313,6 +484,46 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F13BC3A12420076300CAFD46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3N3SUWK76F;
+				INFOPLIST_FILE = "jobics-trackerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mitya1234.jobics-trackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jobics-tracker.app/jobics-tracker";
+			};
+			name = Debug;
+		};
+		F13BC3A22420076300CAFD46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3N3SUWK76F;
+				INFOPLIST_FILE = "jobics-trackerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mitya1234.jobics-trackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jobics-tracker.app/jobics-tracker";
 			};
 			name = Release;
 		};
@@ -333,6 +544,15 @@
 			buildConfigurations = (
 				F13BC3942420022100CAFD46 /* Debug */,
 				F13BC3952420022100CAFD46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F13BC3A32420076300CAFD46 /* Build configuration list for PBXNativeTarget "jobics-trackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13BC3A12420076300CAFD46 /* Debug */,
+				F13BC3A22420076300CAFD46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
