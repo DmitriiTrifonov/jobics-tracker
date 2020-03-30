@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		F1324E6B2420CAF1006C6F99 /* StopWatchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1324E6A2420CAF1006C6F99 /* StopWatchPresenter.swift */; };
+		F13997112432338B005CFC67 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13997102432338B005CFC67 /* Tag.swift */; };
+		F139971324323460005CFC67 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = F139971224323460005CFC67 /* Job.swift */; };
 		F13BC3832420021D00CAFD46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13BC3822420021D00CAFD46 /* AppDelegate.swift */; };
 		F13BC3852420021D00CAFD46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13BC3842420021D00CAFD46 /* SceneDelegate.swift */; };
 		F13BC3872420021D00CAFD46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13BC3862420021D00CAFD46 /* ViewController.swift */; };
@@ -49,6 +51,8 @@
 
 /* Begin PBXFileReference section */
 		F1324E6A2420CAF1006C6F99 /* StopWatchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchPresenter.swift; sourceTree = "<group>"; };
+		F13997102432338B005CFC67 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		F139971224323460005CFC67 /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
 		F13BC37F2420021D00CAFD46 /* jobics-tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "jobics-tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F13BC3822420021D00CAFD46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F13BC3842420021D00CAFD46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -144,6 +148,8 @@
 			isa = PBXGroup;
 			children = (
 				F13BC3BB242010CD00CAFD46 /* TimeStamp.swift */,
+				F13997102432338B005CFC67 /* Tag.swift */,
+				F139971224323460005CFC67 /* Job.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -287,10 +293,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F13997112432338B005CFC67 /* Tag.swift in Sources */,
 				F13BC3872420021D00CAFD46 /* ViewController.swift in Sources */,
 				F13BC3832420021D00CAFD46 /* AppDelegate.swift in Sources */,
 				F13BC3BC242010CD00CAFD46 /* TimeStamp.swift in Sources */,
 				F13BC3852420021D00CAFD46 /* SceneDelegate.swift in Sources */,
+				F139971324323460005CFC67 /* Job.swift in Sources */,
 				F1324E6B2420CAF1006C6F99 /* StopWatchPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
