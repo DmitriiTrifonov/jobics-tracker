@@ -13,4 +13,5 @@ class TimeStamp: Object {
     @objc dynamic var date = Date()
     @objc dynamic var tag = ""
     @objc dynamic var job = ""
+    @objc dynamic var timeZone = TimeZone.current.abbreviation()
 }

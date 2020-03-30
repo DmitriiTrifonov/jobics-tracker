@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F1324E6B2420CAF1006C6F99 /* StopWatchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1324E6A2420CAF1006C6F99 /* StopWatchPresenter.swift */; };
 		F13BC3832420021D00CAFD46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13BC3822420021D00CAFD46 /* AppDelegate.swift */; };
 		F13BC3852420021D00CAFD46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13BC3842420021D00CAFD46 /* SceneDelegate.swift */; };
 		F13BC3872420021D00CAFD46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13BC3862420021D00CAFD46 /* ViewController.swift */; };
@@ -47,6 +48,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F1324E6A2420CAF1006C6F99 /* StopWatchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchPresenter.swift; sourceTree = "<group>"; };
 		F13BC37F2420021D00CAFD46 /* jobics-tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "jobics-tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F13BC3822420021D00CAFD46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F13BC3842420021D00CAFD46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,7 +110,6 @@
 		F13BC3812420021D00CAFD46 /* jobics-tracker */ = {
 			isa = PBXGroup;
 			children = (
-				F13BC3862420021D00CAFD46 /* ViewController.swift */,
 				F13BC3BA24200BF200CAFD46 /* View */,
 				F13BC3B924200BDD00CAFD46 /* Presenter */,
 				F13BC3B624200B7C00CAFD46 /* Model */,
@@ -150,6 +151,7 @@
 		F13BC3B924200BDD00CAFD46 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				F1324E6A2420CAF1006C6F99 /* StopWatchPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -157,6 +159,7 @@
 		F13BC3BA24200BF200CAFD46 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F13BC3862420021D00CAFD46 /* ViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 				F13BC3832420021D00CAFD46 /* AppDelegate.swift in Sources */,
 				F13BC3BC242010CD00CAFD46 /* TimeStamp.swift in Sources */,
 				F13BC3852420021D00CAFD46 /* SceneDelegate.swift in Sources */,
+				F1324E6B2420CAF1006C6F99 /* StopWatchPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
