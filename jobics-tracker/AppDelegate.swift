@@ -40,6 +40,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         _ = try! Realm()
         return true
     }
+    
+    func applicationWillTerminate(_ application: UIApplication) {
+        print("application will terminate")
+    }
 
     // MARK: UISceneSession Lifecycle
 

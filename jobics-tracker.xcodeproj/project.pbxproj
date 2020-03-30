@@ -10,9 +10,10 @@
 		F1324E6B2420CAF1006C6F99 /* StopWatchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1324E6A2420CAF1006C6F99 /* StopWatchPresenter.swift */; };
 		F13997112432338B005CFC67 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13997102432338B005CFC67 /* Tag.swift */; };
 		F139971324323460005CFC67 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = F139971224323460005CFC67 /* Job.swift */; };
+		F139971524323958005CFC67 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F139971424323958005CFC67 /* MainViewController.swift */; };
+		F1399717243240F8005CFC67 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1399716243240F8005CFC67 /* EntryViewController.swift */; };
 		F13BC3832420021D00CAFD46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13BC3822420021D00CAFD46 /* AppDelegate.swift */; };
 		F13BC3852420021D00CAFD46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13BC3842420021D00CAFD46 /* SceneDelegate.swift */; };
-		F13BC3872420021D00CAFD46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13BC3862420021D00CAFD46 /* ViewController.swift */; };
 		F13BC38A2420021D00CAFD46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13BC3882420021D00CAFD46 /* Main.storyboard */; };
 		F13BC38C2420022100CAFD46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F13BC38B2420022100CAFD46 /* Assets.xcassets */; };
 		F13BC38F2420022100CAFD46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13BC38D2420022100CAFD46 /* LaunchScreen.storyboard */; };
@@ -53,10 +54,11 @@
 		F1324E6A2420CAF1006C6F99 /* StopWatchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchPresenter.swift; sourceTree = "<group>"; };
 		F13997102432338B005CFC67 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
 		F139971224323460005CFC67 /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
+		F139971424323958005CFC67 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F1399716243240F8005CFC67 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
 		F13BC37F2420021D00CAFD46 /* jobics-tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "jobics-tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F13BC3822420021D00CAFD46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F13BC3842420021D00CAFD46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F13BC3862420021D00CAFD46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F13BC3892420021D00CAFD46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F13BC38B2420022100CAFD46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F13BC38E2420022100CAFD46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -165,7 +167,8 @@
 		F13BC3BA24200BF200CAFD46 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F13BC3862420021D00CAFD46 /* ViewController.swift */,
+				F139971424323958005CFC67 /* MainViewController.swift */,
+				F1399716243240F8005CFC67 /* EntryViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -294,12 +297,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F13997112432338B005CFC67 /* Tag.swift in Sources */,
-				F13BC3872420021D00CAFD46 /* ViewController.swift in Sources */,
 				F13BC3832420021D00CAFD46 /* AppDelegate.swift in Sources */,
 				F13BC3BC242010CD00CAFD46 /* TimeStamp.swift in Sources */,
 				F13BC3852420021D00CAFD46 /* SceneDelegate.swift in Sources */,
+				F1399717243240F8005CFC67 /* EntryViewController.swift in Sources */,
 				F139971324323460005CFC67 /* Job.swift in Sources */,
 				F1324E6B2420CAF1006C6F99 /* StopWatchPresenter.swift in Sources */,
+				F139971524323958005CFC67 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
