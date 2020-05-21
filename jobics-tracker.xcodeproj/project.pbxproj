@@ -18,11 +18,11 @@
 		F13BC38C2420022100CAFD46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F13BC38B2420022100CAFD46 /* Assets.xcassets */; };
 		F13BC38F2420022100CAFD46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13BC38D2420022100CAFD46 /* LaunchScreen.storyboard */; };
 		F13BC39D2420076200CAFD46 /* jobics_trackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13BC39C2420076200CAFD46 /* jobics_trackerTests.swift */; };
-		F13BC3B0242009AD00CAFD46 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13BC3AB2420086600CAFD46 /* Realm.framework */; };
-		F13BC3B1242009AD00CAFD46 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F13BC3AB2420086600CAFD46 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F13BC3B3242009AF00CAFD46 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13BC3A92420085400CAFD46 /* RealmSwift.framework */; };
-		F13BC3B4242009AF00CAFD46 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F13BC3A92420085400CAFD46 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F13BC3BC242010CD00CAFD46 /* TimeStamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13BC3BB242010CD00CAFD46 /* TimeStamp.swift */; };
+		F1B8B78E24769CDB00847CFF /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1B8B78B24769C2C00847CFF /* Realm.framework */; };
+		F1B8B78F24769CDB00847CFF /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F1B8B78B24769C2C00847CFF /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F1B8B79024769CDD00847CFF /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1B8B78A24769C2900847CFF /* RealmSwift.framework */; };
+		F1B8B79124769CDD00847CFF /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F1B8B78A24769C2900847CFF /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +42,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				F13BC3B4242009AF00CAFD46 /* RealmSwift.framework in Embed Frameworks */,
-				F13BC3B1242009AD00CAFD46 /* Realm.framework in Embed Frameworks */,
+				F1B8B79124769CDD00847CFF /* RealmSwift.framework in Embed Frameworks */,
+				F1B8B78F24769CDB00847CFF /* Realm.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -67,9 +67,9 @@
 		F13BC39C2420076200CAFD46 /* jobics_trackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jobics_trackerTests.swift; sourceTree = "<group>"; };
 		F13BC39E2420076300CAFD46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F13BC3A5242007DD00CAFD46 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = "../../Downloads/realm-swift-4.3-2.2/ios/swift-11.3/RealmSwift.framework"; sourceTree = "<group>"; };
-		F13BC3A92420085400CAFD46 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
-		F13BC3AB2420086600CAFD46 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
 		F13BC3BB242010CD00CAFD46 /* TimeStamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeStamp.swift; sourceTree = "<group>"; };
+		F1B8B78A24769C2900847CFF /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
+		F1B8B78B24769C2C00847CFF /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +77,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F13BC3B3242009AF00CAFD46 /* RealmSwift.framework in Frameworks */,
-				F13BC3B0242009AD00CAFD46 /* Realm.framework in Frameworks */,
+				F1B8B79024769CDD00847CFF /* RealmSwift.framework in Frameworks */,
+				F1B8B78E24769CDB00847CFF /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,8 +95,8 @@
 		F13BC3762420021D00CAFD46 = {
 			isa = PBXGroup;
 			children = (
-				F13BC3AB2420086600CAFD46 /* Realm.framework */,
-				F13BC3A92420085400CAFD46 /* RealmSwift.framework */,
+				F1B8B78B24769C2C00847CFF /* Realm.framework */,
+				F1B8B78A24769C2900847CFF /* RealmSwift.framework */,
 				F13BC3812420021D00CAFD46 /* jobics-tracker */,
 				F13BC39B2420076200CAFD46 /* jobics-trackerTests */,
 				F13BC3802420021D00CAFD46 /* Products */,

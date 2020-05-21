@@ -7,3 +7,19 @@
 //
 
 import Foundation
+
+
+class MainPresenter {
+    var view: MainViewDelegate?
+    
+}
+
+protocol MainPresenterDelegate {
+    
+}
+
+protocol MainViewDelegate {
+    
+}
+
+
